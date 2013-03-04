@@ -1,0 +1,20 @@
+Calibration by cosine
+Macro started: 2012-12-20 14:03:37
+Calibrating full dataset.
+___________________________________
+>Used settings<
+Minimum=0.05500000
+Maximum=0.32100000
+Largest combined Gaussian kernel: 5 - used to remove edge effects of Hessian analysis.
+___________________________________
+A conservative threshold with greyvalue 25700 will be added to the calibrated output
+Smaller ROI Bounds set (edge effect removal):  x coordinates = 112 , y coordinates = 69 , width = 362 , height = 362
+___________________________________
+Applying functions... 
+Check if correct: file D:\ONLINESUPP\InputHess\TestData_1059.tif used for applying conservative threshold; combined with calibration in D:\ONLINESUPP\Output\Hessian_TestData_1059.tif
+Calibration finished!
+___________________________________
+Macro finished: 2012-12-20 14:03:44
+Duration of analysis: 0 Hours and 0 Minutes
+End memory usage: 38.0606 MB of 14935.375 MB (0.2548 %) NOTE: Differs from Windows Task Manager memory usage!
+Logfile saved to D:\ONLINESUPP\\CosineCalLog.txt

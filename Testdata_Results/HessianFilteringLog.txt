@@ -1,0 +1,67 @@
+3D Multiscale Hessian Fracture Filtering
+Macro started: 2012-12-20 13:56:50
+___________________________________
+>Used settings<
+Input folder: D:\ONLINESUPP\Input\
+Folder for input for Hessian calculation: D:\ONLINESUPP\InputHess\
+Folder for Hessian calculation: D:\ONLINESUPP\Calc\
+Folder for final output: D:\ONLINESUPP\Output\
+Number of files to be analysed: 100
+Input files for Hessian calculation will be created
+**Average material greyscale (used for calibration of the Hessian output) [avgmat]: 36500
+**Conservative threshold for clear fractures [consthresh]: 25700
+**Maximum material greyscale; to exclude bright spots [maxmat]: 43000
+Padding turned off
+The Hessian calculations will be performed
+**Hessian calculations for Gaussian kernels from 2 to 5 , with stepsize 1
+**Size of analysis blocks (Hessian): 47
+The results of the Hessian calculations on various Gaussian kernels will be combined
+**Hessian calculations to be included in final output: Gaussian kernels from 2 to 5 , with stepsize 1
+___________________________________
+Check the ROI and control lines: Awaiting input...
+**ROI Bounds set:  x coordinates = 92 , y coordinates = 49 , width = 402 , height = 402
+**ROI and lines OK'd by user!
+Continuing analysis!
+___________________________________
+Check the set conservative threshold / fracture greyscale and bright spot removal: Awaiting input...
+**Conservative threshold / fracture greyscale of 25700 OK'd by user!
+**Removal of greyscales above 43000 (bright spots removal) OK'd by user!
+Continuing analysis!
+___________________________________
+Generating input files for Hessian analysis: applying the bright spot removal, the ROI, and the addition of control lines...
+Generating input files for Hessian analysis finished!
+___________________________________
+Padding turned off
+___________________________________
+Applying Hessian analysis...
+**Analysing block 1 of 3 . Non-overlapping part of slices: 11 - 37
+****Analysing Gaussian Kernel: 2
+****Analysing Gaussian Kernel: 3
+****Analysing Gaussian Kernel: 4
+****Analysing Gaussian Kernel: 5
+**Analysing block 2 of 3 . Non-overlapping part of slices: 38 - 64
+****Analysing Gaussian Kernel: 2
+****Analysing Gaussian Kernel: 3
+****Analysing Gaussian Kernel: 4
+****Analysing Gaussian Kernel: 5
+**Analysing block 3 of 3 (LAST block). Non-overlapping part of slices: 64 - 90
+****Analysing Gaussian Kernel: 2
+****Analysing Gaussian Kernel: 3
+****Analysing Gaussian Kernel: 4
+****Analysing Gaussian Kernel: 5
+Hessian analysis finished!
+___________________________________
+Normalising the slices using the control lines...
+Normalising finished!
+___________________________________
+Combining the selected range of normalised Hessian scales...
+**Gaussian kernel sizes combined: 2 to 5 , with stepsize 1
+**First combined: Hessian analysis slice 11 to file D:\ONLINESUPP\Output\Hessian_TestData_1059.tif (Overlap is 10 , Check if correct)
+Combining finished!
+___________________________________
+Selected analysis finished!
+___________________________________
+Macro finished: 2012-12-20 13:59:05
+Duration of analysis: 0 Hours and 3 Minutes
+End memory usage: 69.3059 MB of 14935.375 MB (0.464 %) NOTE: Differs from Windows Task Manager memory usage!
+Logfile saved to D:\ONLINESUPP\\HessianFilteringLog.txt
